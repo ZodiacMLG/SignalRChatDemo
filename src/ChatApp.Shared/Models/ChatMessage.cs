@@ -1,10 +1,14 @@
-﻿namespace ChatApp.Shared.Models
+﻿// ChatApp.Shared/Models/ChatMessage.cs
+using System;
+
+namespace ChatApp.Shared.Models
 {
     public class ChatMessage
     {
-        public string UserName { get; set; }
-        public string Text { get; set; }
-        public DateTime SentAt { get; set; }
-        public string Room {  get; set; }
+        // Убедись, что есть это свойство!
+        public string User { get; set; }           // ← должно быть User
+        public string Message { get; set; }        // ← должно быть Message
+        public DateTime Timestamp { get; set; } = DateTime.Now;
+        public string Room { get; set; } = "General";
     }
 }

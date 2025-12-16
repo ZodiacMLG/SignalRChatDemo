@@ -1,0 +1,11 @@
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\bin\Debug\net8.0\ChatApp.Shared.deps.json
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\bin\Debug\net8.0\ChatApp.Shared.dll
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\bin\Debug\net8.0\ChatApp.Shared.pdb
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.AssemblyInfoInputs.cache
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.AssemblyInfo.cs
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.csproj.CoreCompileInputs.cache
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.dll
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\refint\ChatApp.Shared.dll
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.pdb
+C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ref\ChatApp.Shared.dll
