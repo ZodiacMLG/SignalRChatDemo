@@ -18,6 +18,9 @@ namespace ChatApp.Server
                 });
             });
 
+            builder.Logging.ClearProviders();
+            builder.Logging.AddConsole();
+
             builder.Services.AddSignalR();
 
             var app = builder.Build();
