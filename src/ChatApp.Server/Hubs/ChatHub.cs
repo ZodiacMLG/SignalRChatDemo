@@ -31,7 +31,7 @@ namespace ChatApp.Server.Hubs
             await Clients.Group(roomName).SendAsync("ReceiveMessage", new ChatMessage
             {
                 User = "System",
-                Message = $"{Context.ConnectionId} left room '{roomName}'",
+                Message = $"{Context.ConnectionId} left room '{roomName}'\n",
                 Timestamp = DateTime.Now
             });
         }

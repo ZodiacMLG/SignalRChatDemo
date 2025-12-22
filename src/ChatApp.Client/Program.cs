@@ -49,7 +49,7 @@ class Program
                 else if (!string.IsNullOrWhiteSpace(input))
                 {
                     // Отправляем два параметра: username и message
-                    await connection.SendAsync("SendMessage", username, input);
+                    await connection.SendAsync("SendMessage", currentRoom, username, input);
                 }
             }
         }
@@ -76,7 +76,7 @@ class Program
                     await connection.SendAsync("LeaveRoom", currentRoom);
                     await connection.SendAsync("JoinRoom", newRoom);
                     currentRoom = newRoom;
-                    Console.WriteLine($"Joined room: {newRoom}");
+                    Console.WriteLine($"Joined room: {newRoom}\n");
                 }
                 break;
 
