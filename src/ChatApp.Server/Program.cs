@@ -1,3 +1,5 @@
+//ChatApp.Server.Program.cs
+
 using ChatApp.Server.Hubs;
 
 namespace ChatApp.Server
@@ -27,6 +29,7 @@ namespace ChatApp.Server
 
             app.UseCors("AllowAll");
             app.MapHub<ChatHub>("/chathub");
+            
 
             app.Run();
         }
