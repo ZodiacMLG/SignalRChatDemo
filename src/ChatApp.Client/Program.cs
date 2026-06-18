@@ -5,6 +5,10 @@ using ChatApp.Shared.Models;
 class Program
 {
     static string currentRoom = "General";  // current room
+    static string userName = "";
+    static string currentInput = "";        // Текущий ввод пользователя
+    static object consoleLock = new object();
+
     static async Task Main(string[] args)
     {
         var connection = new HubConnectionBuilder()
@@ -16,7 +20,14 @@ class Program
         {
             if (message.Room == currentRoom || message.User == "System")
             {
-                Console.WriteLine($"[{message.Timestamp:HH:mm} | {message.Room}] {message.User}: {message.Message}");
+                lock (consoleLock)
+                {
+                    int currentLeft = Console.CursorLeft;
+                    Console.Write("\r" + new string(' ', Console.WindowWidth - 1) + "\r");
+                    Console.WriteLine($"[{message.Timestamp:HH:mm} | {message.Room}] {message.User}: {message.Message}");
+                    Console.Write($"{userName}@{currentRoom}> {currentInput}");
+                }
+                //Console.WriteLine($"[{message.Timestamp:HH:mm} | {message.Room}] {message.User}: {message.Message}");
             }
         });
 
@@ -24,7 +35,10 @@ class Program
         {
             await connection.StartAsync();
             Console.WriteLine("✅ Connected!");
-            await connection.SendAsync("JoinRoom", currentRoom);
+
+            // Сначала запросим имя пользователя
+            Console.Write("Enter your username: ");
+            var username = Console.ReadLine();
 
             Console.WriteLine("Commands:");
             Console.WriteLine("  /join <room> - join room");
@@ -33,14 +47,17 @@ class Program
             Console.WriteLine("  /exit - quit");
             Console.WriteLine("-----------------------");
 
-            // Сначала запросим имя пользователя
-            Console.Write("Enter your username: ");
-            var username = Console.ReadLine();
+            await connection.SendAsync("RegisterUser", username);
+            await connection.InvokeAsync("JoinRoom", currentRoom);
+
+            await Task.Delay(100);
 
             while (true)
             {
                 Console.Write($"{username}@{currentRoom}> ");
-                var input = Console.ReadLine();
+                var input = ReadLineWithTracking();
+
+                if (string.IsNullOrEmpty(input)) continue;
 
                 if (input.StartsWith("/"))
                 {
@@ -52,6 +69,7 @@ class Program
                     await connection.SendAsync("SendMessage", currentRoom, username, input);
                 }
             }
+
         }
         catch (Exception ex)
         {
@@ -62,6 +80,40 @@ class Program
             await connection.DisposeAsync();
         }
     }
+
+    static string ReadLineWithTracking()
+    {
+        currentInput = "";
+
+        while (true) {
+            var key = Console.ReadKey(intercept: true);
+
+            lock (consoleLock)
+            {
+                if (key.Key == ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    var result = currentInput;
+                    currentInput = "";
+                    return result;
+                }
+                else if (key.Key == ConsoleKey.Backspace)
+                {
+                    if (currentInput.Length > 0 )
+                    {
+                        currentInput = currentInput.Substring(0, currentInput.Length - 1);
+                        Console.Write("\b \b");
+                    }
+                }
+                else if (!char.IsControl(key.KeyChar))
+                {
+                    currentInput += key.KeyChar;
+                    Console.Write(key.KeyChar);
+                }
+            }
+        }
+    }
+
 
     static async Task HandleCommand(HubConnection connection, string username, string command)
     {
@@ -77,6 +129,7 @@ class Program
                     await connection.SendAsync("JoinRoom", newRoom);
                     currentRoom = newRoom;
                     Console.WriteLine($"Joined room: {newRoom}\n");
+                    await Task.Delay(100);
                 }
                 break;
 
@@ -84,6 +137,7 @@ class Program
                 await connection.SendAsync("LeaveRoom", currentRoom);
                 currentRoom = "General";
                 await connection.SendAsync("JoinRoom", currentRoom);
+                await Task.Delay(100);
                 break;
 
             case "/exit":

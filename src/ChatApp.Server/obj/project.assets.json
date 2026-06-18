@@ -1937,11 +1937,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\Projects\\C#\\SignalRChat\\ChatApp.Server\\ChatApp.Server.csproj",
+      "projectUniqueName": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\ChatApp.Server.csproj",
       "projectName": "ChatApp.Server",
-      "projectPath": "C:\\Programming\\Projects\\C#\\SignalRChat\\ChatApp.Server\\ChatApp.Server.csproj",
+      "projectPath": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\ChatApp.Server.csproj",
       "packagesPath": "C:\\Users\\Zodiac\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming\\Projects\\C#\\SignalRChat\\ChatApp.Server\\obj\\",
+      "outputPath": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1963,8 +1963,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Programming\\Projects\\C#\\SignalRChat\\ChatApp.Shared\\ChatApp.Shared.csproj": {
-              "projectPath": "C:\\Programming\\Projects\\C#\\SignalRChat\\ChatApp.Shared\\ChatApp.Shared.csproj"
+            "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Shared\\ChatApp.Shared.csproj": {
+              "projectPath": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Shared\\ChatApp.Shared.csproj"
             }
           }
         }
@@ -2013,7 +2013,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

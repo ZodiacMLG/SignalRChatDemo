@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d9omyB54Hng=",
+  "dgSpecHash": "U8xLXx4lUdA=",
   "success": true,
-  "projectFilePath": "C:\\Programming\\Projects\\C#\\SignalRChat\\ChatApp.Client\\ChatApp.Client.csproj",
+  "projectFilePath": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Client\\ChatApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zodiac\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\10.0.1\\microsoft.aspnetcore.connections.abstractions.10.0.1.nupkg.sha512",
     "C:\\Users\\Zodiac\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\10.0.1\\microsoft.aspnetcore.http.connections.client.10.0.1.nupkg.sha512",

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\ChatApp.Client",
+    "\\src\\ChatApp.Server",
+    "\\src\\ChatApp.Server\\Controllers",
+    "\\src\\ChatApp.Server\\Hubs",
+    "\\src\\ChatApp.Shared",
+    "\\src\\ChatApp.Shared\\Models"
+  ],
+  "PreviewInSolutionExplorer": false
+}

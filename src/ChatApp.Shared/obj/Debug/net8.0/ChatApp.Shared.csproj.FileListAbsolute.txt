@@ -9,3 +9,15 @@ C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ChatApp.S
 C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\refint\ChatApp.Shared.dll
 C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.pdb
 C:\Programming\Projects\C#\SignalRChat\ChatApp.Shared\obj\Debug\net8.0\ref\ChatApp.Shared.dll
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\bin\Debug\net8.0\ChatApp.Shared.deps.json
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\bin\Debug\net8.0\ChatApp.Shared.dll
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\bin\Debug\net8.0\ChatApp.Shared.pdb
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.AssemblyInfoInputs.cache
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.AssemblyInfo.cs
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.csproj.CoreCompileInputs.cache
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.sourcelink.json
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.dll
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\refint\ChatApp.Shared.dll
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\ChatApp.Shared.pdb
+S:\Projects\C#\SignalRChatDemo\src\ChatApp.Shared\obj\Debug\net8.0\ref\ChatApp.Shared.dll

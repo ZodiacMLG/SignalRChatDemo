@@ -1,0 +1,12 @@
+﻿// ChatApp.Domain/Models/ChatMessage.cs
+
+namespace ChatApp.Domain.Models
+{
+    public class ChatMessage
+    {
+        public string User { get; set; } = string.Empty;
+        public string Message { get; set; } = string.Empty;
+        public DateTime Timestamp { get; set; } = DateTime.Now;
+        public string Room { get; set; } = "General";
+    }
+}

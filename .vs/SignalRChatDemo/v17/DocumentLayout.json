@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\Projects\\C#\\SignalRChatDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Client\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ChatApp.Client\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Hubs\\ChatHub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ChatApp.Server\\Hubs\\ChatHub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ChatApp.Server\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Shared\\Models\\ChatMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ChatApp.Shared\\Models\\ChatMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ChatApp.Server\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Client\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ChatApp.Client\\Program.cs",
+              "ToolTip": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Client\\Program.cs",
+              "RelativeToolTip": "src\\ChatApp.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:15:16.914Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "src\\ChatApp.Server\\Hubs\\ChatHub.cs",
+              "ToolTip": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "src\\ChatApp.Server\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:15:59.098Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Shared\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "src\\ChatApp.Shared\\Models\\ChatMessage.cs",
+              "ToolTip": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Shared\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "src\\ChatApp.Shared\\Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:39:53.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "src\\ChatApp.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "src\\ChatApp.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:15:49.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ChatApp.Server\\Program.cs",
+              "ToolTip": "S:\\Projects\\C#\\SignalRChatDemo\\src\\ChatApp.Server\\Program.cs",
+              "RelativeToolTip": "src\\ChatApp.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:15:07.356Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
